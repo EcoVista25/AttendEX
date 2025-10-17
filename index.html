@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>human Attendance System</title>
+    <link rel="stylesheet" href="styl-ui-ofc.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <div class="container">
+        <header>
+            <h1>Attendance Table Generator</h1>
+            <p class="subtitle">Arka Jain University | B.Tech (AI & DS)</p>
+            <p class="subtitle">A Webpage For Generating Attendance Sheet/Table by ArKT</p>
+        </header>
+
+        <!-- <div class="upload-section card"> -->
+        <div class="upload-section card hidden">
+            <label for="jsonFile" class="upload-label">
+                <span class="upload-icon">📁</span>
+                <span>Load human Data (JSON)</span>
+            </label>
+            <input type="file" id="jsonFile" accept=".json" />
+            <div id="fileInfo" class="file-info"></div>
+        </div>
+
+        <div id="bulkActions" class="bulk-actions hidden">
+            <h3>Quick Actions</h3>
+            <div class="bulk-buttons">
+                <button id="markAllPresent" class="btn btn-bulk-present">
+                    Mark All Present
+                </button>
+                <button id="markAllAbsent" class="btn btn-bulk-absent">
+                    Mark All Absent
+                </button>
+                <button id="clearAll" class="btn btn-bulk-clear">
+                    Clear All
+                </button>
+            </div>
+        </div>
+
+        <div id="statsSection" class="stats-section hidden">
+        <div class="stat-card">
+            <div class="stat-value" id="totalhumans">0</div>
+            <div class="stat-label">Total humans</div>
+        </div>
+        <div class="stat-card merged-pa">
+            <div class="stat-merged">
+                <span class="present-num" id="presentCount">0</span>
+                <span class="divider">/</span>
+                <span class="absent-num" id="absentCount">0</span>
+            </div>
+            <div class="stat-label">Present / Absent</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" id="unmarkedCount">0</div>
+            <div class="stat-label">Unmarked</div>
+        </div>
+        </div>
+
+        <div id="humanList" class="human-list"></div>
+
+        <div id="downloadSection" class="download-section card hidden">
+            <h2>Export Attendance</h2>
+            
+            <div class="options-grid">
+                <div class="option-group">
+                    <h3>Filter Options</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showPresentOnly" />
+                        <span>Show Present fellows Only</span>
+                    </label>
+                </div>
+
+                <div class="option-group">
+                    <h3>Include Columns</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="includeName" checked />
+                        <span>Name</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="includeRollNo" checked />
+                        <span>Roll Number</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="includeEnrollment" checked />
+                        <span>Enrollment Number</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="includeStatus" checked />
+                        <span>Attendance Status</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button id="downloadExcel" class="btn btn-excel">
+                    Download in Excel
+                </button>
+                <button id="downloadTxt" class="btn btn-txt">
+                    Download in Text
+                </button>
+                <button id="viewText" class="btn btn-view">
+                    View in Browser
+                </button>
+            </div>
+
+            <div id="textView" class="text-view hidden"></div>
+        </div>
+    </div>
+    <script src="scrp-yex.js"></script>
+</body>
+</html>
