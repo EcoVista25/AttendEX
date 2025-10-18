@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>human Attendance System</title>
+    <title>Student Attendance System</title>
     <link rel="stylesheet" href="styl-ui-ofc.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
@@ -19,12 +19,24 @@
 
         <!-- <div class="upload-section card"> -->
         <div class="upload-section card hidden">
+            <h2>Select Students</h2>
             <label for="jsonFile" class="upload-label">
                 <span class="upload-icon">📁</span>
                 <span>Load human Data (JSON)</span>
             </label>
             <input type="file" id="jsonFile" accept=".json" />
             <div id="fileInfo" class="file-info"></div>
+        </div>
+
+        <div class="upload-section card hidden" id="subjectSection">
+            <h2>Select Subject</h2>
+            <label for="subjectFile" class="upload-label">
+                <span class="upload-icon">📁</span>
+                <span>Load Subject Data (JSON)</span>
+            </label>
+            <input type="file" id="subjectFile" accept=".json" style="display:none;" />
+            <div id="subjectFileInfo" class="file-info"></div>
+            <div id="subjectButtons" class="subject-buttons"></div>
         </div>
 
         <div id="bulkActions" class="bulk-actions hidden">
@@ -43,22 +55,22 @@
         </div>
 
         <div id="statsSection" class="stats-section hidden">
-        <div class="stat-card">
-            <div class="stat-value" id="totalhumans">0</div>
-            <div class="stat-label">Total humans</div>
-        </div>
-        <div class="stat-card merged-pa">
-            <div class="stat-merged">
-                <span class="present-num" id="presentCount">0</span>
-                <span class="divider">/</span>
-                <span class="absent-num" id="absentCount">0</span>
+            <div class="stat-card">
+                <div class="stat-value" id="totalhumans">0</div>
+                <div class="stat-label">Total humans</div>
             </div>
-            <div class="stat-label">Present / Absent</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="unmarkedCount">0</div>
-            <div class="stat-label">Unmarked</div>
-        </div>
+            <div class="stat-card merged-pa">
+                <div class="stat-merged">
+                    <span class="present-num" id="presentCount">0</span>
+                    <span class="divider">/</span>
+                    <span class="absent-num" id="absentCount">0</span>
+                </div>
+                <div class="stat-label">Present / Absent</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="unmarkedCount">0</div>
+                <div class="stat-label">Unmarked</div>
+            </div>
         </div>
 
         <div id="humanList" class="human-list"></div>
