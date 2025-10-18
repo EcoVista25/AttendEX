@@ -1,18 +1,98 @@
 [
   {
-    "name": "Amrit Ranjan",
-    "rollNo": "30",
-    "enrollmentNo": "AJU/251221"
+    "name": "Sangam Kumar",
+    "rollNo": "1",
+    "enrollmentNo": "AJU/250052"
   },
   {
-    "name": "Mohammad Kamran Alvi",
-    "rollNo": "21",
-    "enrollmentNo": "AJU/250779"
+    "name": "Kumari Shashi Verma",
+    "rollNo": "2",
+    "enrollmentNo": "AJU/250055"
   },
   {
-    "name": "Farhan Khalid",
-    "rollNo": "29",
-    "enrollmentNo": "AJU/251152"
+    "name": "Arpit Swarnkar",
+    "rollNo": "3",
+    "enrollmentNo": "AJU/250197"
+  },
+  {
+    "name": "Surjo Banerjee",
+    "rollNo": "4",
+    "enrollmentNo": "AJU/250201"
+  },
+  {
+    "name": "Mohit Verma",
+    "rollNo": "5",
+    "enrollmentNo": "AJU/250289"
+  },
+  {
+    "name": "Rohan Thakur",
+    "rollNo": "6",
+    "enrollmentNo": "AJU/250325"
+  },
+  {
+    "name": "Kumari Raj Nandani",
+    "rollNo": "7",
+    "enrollmentNo": "AJU/250402"
+  },
+  {
+    "name": "Tanmaya Behera",
+    "rollNo": "8",
+    "enrollmentNo": "AJU/250416"
+  },
+  {
+    "name": "Nishant Tiwary",
+    "rollNo": "9",
+    "enrollmentNo": "AJU/250419"
+  },
+  {
+    "name": "Jaisleen Kaur",
+    "rollNo": "10",
+    "enrollmentNo": "AJU/250475"
+  },
+  {
+    "name": "Khushwant Mardi",
+    "rollNo": "11",
+    "enrollmentNo": "AJU/250478"
+  },
+  {
+    "name": "Rishu Singh",
+    "rollNo": "12",
+    "enrollmentNo": "AJU/250505"
+  },
+  {
+    "name": "Soni Singh",
+    "rollNo": "13",
+    "enrollmentNo": "AJU/250506"
+  },
+  {
+    "name": "Pallavi Kumari",
+    "rollNo": "14",
+    "enrollmentNo": "AJU/250564"
+  },
+  {
+    "name": "Harshdeep Singh",
+    "rollNo": "15",
+    "enrollmentNo": "AJU/250572"
+  },
+  {
+    "name": "Rupesh Anand",
+    "rollNo": "16",
+    "enrollmentNo": "AJU/250579"
+  },
+  {
+    "name": "Azlan Ali",
+    "rollNo": "17",
+    "enrollmentNo": "AJU/250582"
+  },
+  {
+    "name": "Suraj Mallik",
+    "rollNo": "18",
+    "enrollmentNo": "AJU/250620"
+  },
+  {
+    "name": "Sarvottam Priye",
+    "rollNo": "19",
+    "enrollmentNo": "AJU/250685"
   },
   {
     "name": "Chetan Singh",
@@ -20,13 +100,163 @@
     "enrollmentNo": "AJU/250775"
   },
   {
-    "name": "Mohit Raj",
-    "rollNo": "58",
-    "enrollmentNo": "AJU/XXXXXX"
+    "name": "Mohammad Kamran Alvi",
+    "rollNo": "21",
+    "enrollmentNo": "AJU/250779"
   },
   {
-    "name": "Mohit Verma",
-    "rollNo": "05",
-    "enrollmentNo": "AJU/XXXXXX"
+    "name": "Mohammad Rehan",
+    "rollNo": "22",
+    "enrollmentNo": "AJU/250848"
+  },
+  {
+    "name": "Rishika Kumari",
+    "rollNo": "23",
+    "enrollmentNo": "AJU/250878"
+  },
+  {
+    "name": "Gourav Kumar Mahato",
+    "rollNo": "24",
+    "enrollmentNo": "AJU/250885"
+  },
+  {
+    "name": "Raju Gorai",
+    "rollNo": "25",
+    "enrollmentNo": "AJU/250993"
+  },
+  {
+    "name": "Ishika Kumari",
+    "rollNo": "26",
+    "enrollmentNo": "AJU/251021"
+  },
+  {
+    "name": "Naina Kumari",
+    "rollNo": "27",
+    "enrollmentNo": "AJU/251025"
+  },
+  {
+    "name": "Ritika Kumari",
+    "rollNo": "28",
+    "enrollmentNo": "AJU/251088"
+  },
+  {
+    "name": "Farhan Khalid",
+    "rollNo": "29",
+    "enrollmentNo": "AJU/251152"
+  },
+  {
+    "name": "Amrit Ranjan",
+    "rollNo": "30",
+    "enrollmentNo": "AJU/251221"
+  },
+  {
+    "name": "Soumya Mishra",
+    "rollNo": "31",
+    "enrollmentNo": "AJU/251316"
+  },
+  {
+    "name": "Shivam Purty",
+    "rollNo": "32",
+    "enrollmentNo": "AJU/251335"
+  },
+  {
+    "name": "Arshal Nasim",
+    "rollNo": "33",
+    "enrollmentNo": "AJU/251377"
+  },
+  {
+    "name": "Hemant Kumar",
+    "rollNo": "34",
+    "enrollmentNo": "AJU/251442"
+  },
+  {
+    "name": "Simiya Khatoon",
+    "rollNo": "35",
+    "enrollmentNo": "AJU/251452"
+  },
+  {
+    "name": "Umair Raza",
+    "rollNo": "36",
+    "enrollmentNo": "AJU/251455"
+  },
+  {
+    "name": "Anish Kumar Mahato",
+    "rollNo": "37",
+    "enrollmentNo": "AJU/251472"
+  },
+  {
+    "name": "Kritika Raj",
+    "rollNo": "38",
+    "enrollmentNo": "AJU/251580"
+  },
+  {
+    "name": "Rahul Kumar Mandal",
+    "rollNo": "39",
+    "enrollmentNo": "AJU/251641"
+  },
+  {
+    "name": "Keshav Chourasia",
+    "rollNo": "40",
+    "enrollmentNo": "AJU/251694"
+  },
+  {
+    "name": "Priyanshu Sen",
+    "rollNo": "41",
+    "enrollmentNo": "AJU/251734"
+  },
+  {
+    "name": "Ayush Kumar",
+    "rollNo": "42",
+    "enrollmentNo": "AJU/251740"
+  },
+  {
+    "name": "Mohani Prasad",
+    "rollNo": "43",
+    "enrollmentNo": "AJU/251755"
+  },
+  {
+    "name": "Rahul Kumar Singh",
+    "rollNo": "44",
+    "enrollmentNo": "AJU/251798"
+  },
+  {
+    "name": "Paras",
+    "rollNo": "45",
+    "enrollmentNo": "AJU/251858"
+  },
+  {
+    "name": "Ayushman Mandal",
+    "rollNo": "46",
+    "enrollmentNo": "AJU/251907"
+  },
+  {
+    "name": "Mohammad Aaban Ahmad",
+    "rollNo": "47",
+    "enrollmentNo": "AJU/251969"
+  },
+  {
+    "name": "Harsh Nayan",
+    "rollNo": "48",
+    "enrollmentNo": "AJU/251999"
+  },
+  {
+    "name": "Ayush Kumar Singh",
+    "rollNo": "49",
+    "enrollmentNo": "AJU/252009"
+  },
+  {
+    "name": "Janvi Sinha",
+    "rollNo": "50",
+    "enrollmentNo": "AJU/252075"
+  },
+  {
+    "name": "Ashutosh Sharma",
+    "rollNo": "51",
+    "enrollmentNo": "AJU/252078"
+  },
+  {
+    "name": "Humaira Kayenat",
+    "rollNo": "52",
+    "enrollmentNo": "AJU/252105"
   }
 ]
