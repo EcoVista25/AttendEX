@@ -448,3 +448,60 @@ document.getElementById('showPresentOnly').addEventListener('change', () => {
     renderAndCopyReport();
   }
 });
+
+const scrollBtn = document.getElementById('scrollToggleBtn');
+const scrollBtnIcon = document.getElementById('scrollBtnIcon');
+const exportSection = document.getElementById('downloadSection');
+
+let buttonVisible = false;
+
+function scrollToExportSection() {
+  exportSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function getScrollPercent() {
+  const scrollTop = window.scrollY;
+  const docHeight = document.body.scrollHeight - window.innerHeight;
+  if (docHeight <= 0) return 0;
+  return (scrollTop / docHeight) * 100;
+}
+
+function updateScrollBtn() {
+  const scrollPercent = getScrollPercent();
+
+  //Hide button if within top 5% or bottom 5%
+  if (scrollPercent <= 5 || scrollPercent >= 95) {
+    if (buttonVisible) {
+      scrollBtn.style.display = 'none';
+      buttonVisible = false;
+    }
+    return;
+  }
+
+  //Show button in the middle zone (5%-95%)
+  if (!buttonVisible) {
+    scrollBtn.style.display = 'flex';
+    buttonVisible = true;
+  }
+  //Update icon based on scroll position
+  if (scrollPercent <= 69) {
+    scrollBtnIcon.textContent = '⬇';
+    scrollBtn.classList.remove('active');
+  } else {
+    scrollBtnIcon.textContent = '⬆';
+    scrollBtn.classList.add('active');
+  }
+}
+
+scrollBtn.addEventListener('click', () => {
+  const scrollPercent = getScrollPercent();
+  
+  if (scrollPercent <= 69) {
+    scrollToExportSection();
+  } else {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+});
+
+window.addEventListener('scroll', updateScrollBtn);
+window.addEventListener('load', updateScrollBtn);
