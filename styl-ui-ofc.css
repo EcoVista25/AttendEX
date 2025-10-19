@@ -528,17 +528,17 @@ h2 {
 .scroll-toggle-btn {
   position: fixed;
   bottom: 1rem;
-  right: -0.2rem;
+  right: -0.3rem;
   z-index: 9999;
-  width: 58px;
-  height: 60px;
+  width: 48px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-top: 2px solid #94a3b8;
   border-bottom: 2px solid #94a3b8;
   border-left: 2px solid #94a3b8;
-  border-radius: 1.6rem 0 0 1.6rem;
+  border-radius: 1.4rem 0 0 1.4rem;
   background: transparent;
   color: #f1f5f9;
   font-size: 2rem;
@@ -562,6 +562,6 @@ h2 {
 }
 
 #scrollBtnIcon {
-  font-size: 2rem;
+  font-size: 1.5rem;
   pointer-events: none;
 }
