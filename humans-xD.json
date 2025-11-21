@@ -305,13 +305,18 @@
     "enrollmentNo": "AJU/25XXXX"
   },
   {
-    "name": "",
+    "name": "Rohit Kumar",
     "rollNo": "62",
-    "enrollmentNo": "AJU/25XXXX"
+    "enrollmentNo": "AJU/252812"
   },
   {
     "name": "Shristi Kumari",
     "rollNo": "63",
-    "enrollmentNo": "AJU/25XXXX"
+    "enrollmentNo": "AJU/252812"
+  },
+  {
+    "name": "MD Naseeb Khan",
+    "rollNo": "64",
+    "enrollmentNo": "AJU/252821"
   }
 ]
